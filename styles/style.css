@@ -1,0 +1,488 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap');
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Navigation Bar Start */
+.navigation_bar {
+    width: 1920px;
+    height: 130px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.logo_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+    width: 1920px;
+    height: 130px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-family: 'Work Sans';
+    font-size: 45px;
+    font-style: bold;
+    font-weight: 700;
+    gap: 20px;
+}
+
+.g_span {
+    color: #ff42a5;
+}
+
+
+.another_item {
+    list-style: none;
+}
+
+.link {
+    color: #3C354F;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+}
+
+.another_link {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+
+.li_div {
+    padding: 18px 24px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 24px;
+}
+
+.youtube_icon {
+    width: 34px;
+    height: 24px;
+}
+
+.main_item {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Navigation Bar End */
+
+/* Banner Section Start */
+.banner_section {
+    width: 1920px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.goat_banner {
+    width: 900px;
+    height: 700px;
+    background-image: url("/images/Group 14.png");
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+.one_p,
+.two_p,
+.thre_p {
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+}
+
+.content {
+
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    position: absolute;
+    text-align: center;
+    display: grid;
+}
+
+.h_one {
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 95px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.h_three_one {
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.p_one,
+.p_two,
+.p_three {
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: lowercase;
+}
+
+.three_p {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner_button_one {
+    width: 156px;
+    height: 65px;
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    border: none;
+}
+
+.banner_button_two {
+    width: 185px;
+    height: 65px;
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    border: none;
+}
+
+
+.banner_button {
+    display: flex;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+
+
+
+
+.banner_image {
+    width: 1000px;
+    height: 700px;
+}
+
+/* Banner Secdtion End */
+
+
+/* Banner Two Start */
+.banner_two {
+    width: 1920px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.banner_two_p {
+    text-align: right;
+    margin-top: 15px;
+}
+
+.banner_two_h {
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.banner_two_button {
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    border: none;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    align-content: end;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-left: 237px;
+}
+
+.banner_two_span {
+    font-weight: bold;
+    font-size: 25px;
+    color: #534C64;
+}
+
+
+.banner_two_image {
+    margin-right: 50px;
+}
+
+/* Banner two End */
+
+
+
+/* hover section strat */
+
+.hover {
+    width: 1920px;
+    height: 800px;
+}
+
+.hover_h {
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.hover_span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.hover_p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.hover_p_one {
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 25px;
+}
+
+
+.hover_image {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 50px;
+}
+
+
+.hover_image_main:hover {
+
+    border: #FF42A5 5px solid;
+    border-radius: 25px;
+    transition: 0.2s;
+
+}
+
+
+/* hover section end */
+
+
+
+/* different image start */
+
+.different_image_div {
+    width: 1920px;
+    height: 1000px;
+
+}
+
+.choto_image {
+    margin-left: -170px;
+    margin-bottom: -150px;
+}
+
+
+.dif_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+
+.dif_h {
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.dif_span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+.dif_p {
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 25px;
+}
+
+/* different image end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+.another {
+    width: 1920px;
+    height: 300px;
+}
+
+
+.another_one {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+
+.ano , .ano_two {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.an_p {
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+
+.another_one:hover {
+
+    border: #FF42A5 3px solid;
+    border-radius: 50px;
+    transition: 0.2s;
+
+}
+
+.ano_two{
+    margin-top: 30px;
+}
+
+
+
+/* footer */
+
+.footer_bg{
+    width: 1920px;
+    height: 636px;
+    background: #0B0223;
+    
+}
+
+.footer_logo{
+    color: white;
+}
+
+.footer_logo_one{
+    align-items: center;
+    justify-content: center;
+}
